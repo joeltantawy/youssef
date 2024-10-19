@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+
+}
+
+div.container{
+display: flex;    
+justify-content: center;
+}
+img{
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+
+
+
+a{
+    
+    text-decoration: none;
+    background-color: darkslategray;
+    padding: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-left: 48%;
+    
+}
+
+
+
+
+
+
+div{
+    animation-name: ancer;
+    animation-duration: 2s;
+}
+
+
+
+
+
+@keyframes ancer {
+    
+from{
+    transform: translateY(-50px);
+    opacity: 0;
+}
+    to{transform: translateY(0);
+    opacity: 1;
+}
+  
+    
+}
+
+
+
+
